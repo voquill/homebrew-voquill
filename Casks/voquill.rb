@@ -1,8 +1,8 @@
 cask "voquill" do
-  version "0.0.526"
-  sha256 "88c21b1454cb172781bb7081e3c4a3e26b66932fe34929261a45e2df7748d67d"
+  version "0.0.534"
+  sha256 "c08d98ec88a437e6773fb4256bb198beb6e098fb60dc628ea54b0dc93e95ba1a"
 
-  url "https://github.com/josiahsrc/voquill/releases/download/desktop-v#{version}/Voquill_#{version}_universal.dmg"
+  url "https://github.com/voquill/voquill/releases/download/desktop-v#{version}/Voquill_#{version}_universal.dmg"
   name "Voquill"
   desc "AI-powered dictation desktop application"
   homepage "https://voquill.com"
