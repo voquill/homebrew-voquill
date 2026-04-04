@@ -1,6 +1,6 @@
 cask "voquill-dev" do
-  version "0.0.557"
-  sha256 "27775118a3753d56c865545fd98a056874e18c9786804f3d073089b2fad23d8e"
+  version "0.0.558"
+  sha256 "6d77c556fed19dd67083fff7ccec70f05a5da02432ea853a6ae52743ebb69a43"
 
   url "https://github.com/voquill/voquill/releases/download/desktop-dev-v#{version}/VoquillDev_#{version}_universal.dmg"
   name "Voquill (dev)"
