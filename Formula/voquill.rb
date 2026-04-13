@@ -1,26 +1,26 @@
 class Voquill < Formula
   desc "Voquill CLI"
   homepage "https://voquill.com"
-  version "0.0.6"
+  version "0.0.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/voquill/voquill/releases/download/cli-v0.0.6/voquill-aarch64-apple-darwin.tar.gz"
-      sha256 "3a504b813373dca43e517bb979a8243b8f8468c3f5e62821dc0e1d69b2fcc0bc"
+      url "https://github.com/voquill/voquill/releases/download/cli-v0.0.7/voquill-aarch64-apple-darwin.tar.gz"
+      sha256 "eeaeebe2b928aec95914705c222a7aa12191edcd7d389d34612d9167cbd266f4"
     else
-      url "https://github.com/voquill/voquill/releases/download/cli-v0.0.6/voquill-x86_64-apple-darwin.tar.gz"
-      sha256 "1d6147a1122d3656c07c463b6a9b726d6e1bd0bbf738be5b43530ff745d2a99c"
+      url "https://github.com/voquill/voquill/releases/download/cli-v0.0.7/voquill-x86_64-apple-darwin.tar.gz"
+      sha256 "7ae117603cabb2ae7f26598b6cc111bbfdd129baa1c82e5ff8b9e9ddab8c9c70"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/voquill/voquill/releases/download/cli-v0.0.6/voquill-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0310fd47d4e182b4d09eaf90471b980a61c9c3f886bb98bf581cbcd8bf721d34"
+      url "https://github.com/voquill/voquill/releases/download/cli-v0.0.7/voquill-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c918ead8c2fee9b2201ad872b7a6cc3cd3a4d874c139670ab59598faac073440"
     else
-      url "https://github.com/voquill/voquill/releases/download/cli-v0.0.6/voquill-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "19df5ba59b1e7657a362f57344c1cb6fed1fe3c08742ad3a0fd1919682922fef"
+      url "https://github.com/voquill/voquill/releases/download/cli-v0.0.7/voquill-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ead8e8936bb5b2398aae3954a03434a520b3e4873c306fc63d2a37c3ef61d713"
     end
   end
 
