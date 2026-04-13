@@ -1,26 +1,26 @@
 class VoquillDev < Formula
   desc "Voquill CLI (dev build, targets dev Firebase backend)"
   homepage "https://voquill.com"
-  version "0.0.4"
+  version "0.0.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/voquill/voquill/releases/download/cli-dev-v0.0.4/voquill-dev-aarch64-apple-darwin.tar.gz"
-      sha256 "984707f3ff7cd4c6e3ade78078a9e694e70b2e2c42aca922ef5b14f890d91fa9"
+      url "https://github.com/voquill/voquill/releases/download/cli-dev-v0.0.5/voquill-dev-aarch64-apple-darwin.tar.gz"
+      sha256 "13352a63fe76b33b19821afe3e6b97ee7d169dadc258805f806b1e98ac91a713"
     else
-      url "https://github.com/voquill/voquill/releases/download/cli-dev-v0.0.4/voquill-dev-x86_64-apple-darwin.tar.gz"
-      sha256 "b9f9177fb322df004905f973cc6214c6145322834db019b0d5f8b81b241f18aa"
+      url "https://github.com/voquill/voquill/releases/download/cli-dev-v0.0.5/voquill-dev-x86_64-apple-darwin.tar.gz"
+      sha256 "61a77605518a2f74b23a30d5f752dfdad4aaff40d02e7aacce5694a9a92acb6d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/voquill/voquill/releases/download/cli-dev-v0.0.4/voquill-dev-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "95a1f86a8e655f384fd9456929d97c2d79a382dd19dcf5eacc2071a2e04f5ae8"
+      url "https://github.com/voquill/voquill/releases/download/cli-dev-v0.0.5/voquill-dev-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c6b60bf8510b7930d670dc14c3aad9c378d94aef180503c1b6f8c1f093e95d4d"
     else
-      url "https://github.com/voquill/voquill/releases/download/cli-dev-v0.0.4/voquill-dev-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8ccb84dbc325c0a304d2e32f0db93147a870dac1b6ffee357dd74bda6865476d"
+      url "https://github.com/voquill/voquill/releases/download/cli-dev-v0.0.5/voquill-dev-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "245607d143ba65e2d342b7697a6d3f705584b4be496ed20be98a21fceb360935"
     end
   end
 
